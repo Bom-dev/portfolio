@@ -57,6 +57,10 @@ h3 {
     font-family: 'Squada One', cursive;
 }
 
+h3:hover {
+    color: #fff;
+    background: #6D97CD;
+}
 main {
     border-top: 1px solid #859931;
     border-bottom: 1px solid #859931;
@@ -84,6 +88,7 @@ div > a {
 
 div > img {
     max-width: 600px;
+    min-width: 400px;
 }
 
 li {
@@ -110,7 +115,15 @@ p > a {
     break-after: column;
 }
 
+#work1, #work2 {
+    cursor: pointer;
+}
 hr {
     border-top: .5px solid #859931;
-    margin-top: 75px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.hidden {
+    display: none;
 }
