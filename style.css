@@ -24,17 +24,18 @@ nav {
 }
 
 nav > a {
-    color: #6D97CD;
+    color: #2b2d42;
     margin: 15px;
+    font-size: 1.3em;
 }
 
 nav > a:active {
-    color: #FFF5B8;
+    color: #d90429;
     transform: scale(0.98);
 }
 
 .active {
-    color: #FFF5B8;
+    color: #d90429;
 }
 
 #logo {
@@ -47,23 +48,23 @@ nav > a:active {
 h1 {
     font-size: 4em;
     margin-top: 100px;
-    color: #6D97CD;
+    color: #2b2d42;
     font-family: 'Squada One', cursive;
 }
 
 h3 {
     font-size: 2em;
-    color: #6D97CD;
+    color: #2b2d42;
     font-family: 'Squada One', cursive;
 }
 
 h3:hover {
-    color: #fff;
-    background: #6D97CD;
+    color: #edf2f4;
+    background: #2b2d42;
 }
 main {
-    border-top: 1px solid #859931;
-    border-bottom: 1px solid #859931;
+    border-top: 1px solid #2b2d42;
+    border-bottom: 1px solid #2b2d42;
     padding-top: 50px;
     padding-bottom: 50px;
     margin-top: 50px;
@@ -74,16 +75,17 @@ main {
 }
 
 footer {
-    background: rgba(109, 151, 205, .5);
-    color: #fff;
+    background: #2b2d42;
+    color: #edf2f4;
     padding: 30px;
     text-transform: uppercase;
 }
 
 div > a {
-    color: #fff;
+    color: #edf2f4;
     font-weight: bold;
     margin: 15px;
+    font-size: 1.5em;
 }
 
 div > img {
@@ -96,14 +98,14 @@ li {
 }
 
 p > a {
-    background-color: #859931;
-    color: #fff;
+    background-color: #2b2d42;
+    color: #edf2f4;
     font-weight: bold;
     text-decoration: underline;
 }
 
 .function {
-    color: #666;
+    color: #8d99ae;
 }
 
 #container {
@@ -119,7 +121,7 @@ p > a {
     cursor: pointer;
 }
 hr {
-    border-top: .5px solid #859931;
+    border-top: .5px solid #2b2d42;
     margin-top: 50px;
     margin-bottom: 50px;
 }
