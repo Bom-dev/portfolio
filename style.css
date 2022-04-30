@@ -24,18 +24,18 @@ nav {
 }
 
 nav > a {
-    color: #2b2d42;
+    color: #4a4e69;
     margin: 15px;
     font-size: 1.3em;
 }
 
 nav > a:active {
-    color: #d90429;
+    color: #9a8c98;
     transform: scale(0.98);
 }
 
 .active {
-    color: #d90429;
+    color: #9a8c98;
 }
 
 #logo {
@@ -48,23 +48,23 @@ nav > a:active {
 h1 {
     font-size: 4em;
     margin-top: 100px;
-    color: #2b2d42;
+    color: #22223b;
     font-family: 'Squada One', cursive;
 }
 
 h3 {
     font-size: 2em;
-    color: #2b2d42;
+    color: #22223b;
     font-family: 'Squada One', cursive;
 }
 
 h3:hover {
-    color: #edf2f4;
-    background: #2b2d42;
+    color: #f2e9e4;
+    background: #22223b;
 }
 main {
-    border-top: 1px solid #2b2d42;
-    border-bottom: 1px solid #2b2d42;
+    border-top: 1px solid #22223b;
+    border-bottom: 1px solid #22223b;
     padding-top: 50px;
     padding-bottom: 50px;
     margin-top: 50px;
@@ -75,14 +75,14 @@ main {
 }
 
 footer {
-    background: #2b2d42;
-    color: #edf2f4;
+    background: #9a8c98;
+    color: #f2e9e4;
     padding: 30px;
     text-transform: uppercase;
 }
 
 div > a {
-    color: #edf2f4;
+    color: #f2e9e4;
     font-weight: bold;
     margin: 15px;
     font-size: 1.5em;
@@ -98,8 +98,8 @@ li {
 }
 
 p > a {
-    background-color: #2b2d42;
-    color: #edf2f4;
+    background-color: #4a4e69;
+    color: #f2e9e4;
     font-weight: bold;
     text-decoration: underline;
 }
@@ -121,11 +121,16 @@ p > a {
     cursor: pointer;
 }
 hr {
-    border-top: .5px solid #2b2d42;
+    border-top: .5px solid #22223b;
     margin-top: 50px;
     margin-bottom: 50px;
 }
 
 .hidden {
     display: none;
+}
+
+#container1, #container2 {
+    display: inline-grid;
+    justify-items: center
 }
