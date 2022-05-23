@@ -25,6 +25,7 @@ document.body.style.backgroundImage = `linear-gradient(90deg, ${randColor1}, ${r
 const work1 = document.getElementById("work1");
 const work2 = document.getElementById("work2");
 const work3 = document.getElementById("work3");
+const work4 = document.getElementById("work4");
 
 work1.addEventListener("click", showDetail1);
 function showDetail1() {
@@ -42,4 +43,10 @@ work3.addEventListener("click", showDetail3);
 function showDetail3() {
     const detail3 = document.getElementById("detail3");
     detail3.classList.toggle("hidden");
+}
+
+work4.addEventListener("click", showDetail4);
+function showDetail4() {
+    const detail4 = document.getElementById("detail4");
+    detail4.classList.toggle("hidden");
 }
