@@ -24,6 +24,7 @@ document.body.style.backgroundImage = `linear-gradient(90deg, ${randColor1}, ${r
 // Set a clickable works to show the details
 const work1 = document.getElementById("work1");
 const work2 = document.getElementById("work2");
+const work3 = document.getElementById("work3");
 
 work1.addEventListener("click", showDetail1);
 function showDetail1() {
@@ -35,4 +36,10 @@ work2.addEventListener("click", showDetail2);
 function showDetail2() {
     const detail2 = document.getElementById("detail2");
     detail2.classList.toggle("hidden");
+}
+
+work3.addEventListener("click", showDetail3);
+function showDetail3() {
+    const detail3 = document.getElementById("detail3");
+    detail3.classList.toggle("hidden");
 }
