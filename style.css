@@ -121,7 +121,7 @@ p > a {
     color: #1F7A8C;
 }
 
-#container {
+.container {
     column-count: 2;
     text-align: left;
 }
@@ -130,7 +130,7 @@ p > a {
     break-after: column;
 }
 
-#work1, #work2, #work3, #work4 #work5 {
+#work1, #work2, #work3, #work4, #work5 {
     cursor: pointer;
 }
 hr {
