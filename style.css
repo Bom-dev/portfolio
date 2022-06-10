@@ -130,7 +130,7 @@ p > a {
     break-after: column;
 }
 
-#work1, #work2, #work3, #work4 {
+#work1, #work2, #work3, #work4 #work5 {
     cursor: pointer;
 }
 hr {
@@ -143,7 +143,7 @@ hr {
     display: none;
 }
 
-#container1, #container2, #container3, #container4 {
+#container1, #container2, #container3, #container4, #container5 {
     display: inline-grid;
     justify-items: center
 }
