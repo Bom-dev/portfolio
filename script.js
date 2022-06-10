@@ -22,6 +22,7 @@ const work1 = document.getElementById("work1");
 const work2 = document.getElementById("work2");
 const work3 = document.getElementById("work3");
 const work4 = document.getElementById("work4");
+const work5 = document.getElementById("work5");
 
 work1.addEventListener("click", showDetail1);
 function showDetail1() {
@@ -45,4 +46,10 @@ work4.addEventListener("click", showDetail4);
 function showDetail4() {
     const detail4 = document.getElementById("detail4");
     detail4.classList.toggle("hidden");
+}
+
+work5.addEventListener("click", showDetail5);
+function showDetail5() {
+    const detail5 = document.getElementById("detail5");
+    detail5.classList.toggle("hidden");
 }
