@@ -24,32 +24,27 @@ const work3 = document.getElementById("work3");
 const work4 = document.getElementById("work4");
 const work5 = document.getElementById("work5");
 
-work1.addEventListener("click", showDetail1);
-function showDetail1() {
+work1.addEventListener("click", () => {
     const detail1 = document.getElementById("detail1");
     detail1.classList.toggle("hidden");
-}
+});
 
-work2.addEventListener("click", showDetail2);
-function showDetail2() {
+work2.addEventListener("click", () => {
     const detail2 = document.getElementById("detail2");
     detail2.classList.toggle("hidden");
-}
+});
 
-work3.addEventListener("click", showDetail3);
-function showDetail3() {
+work3.addEventListener("click", () => {
     const detail3 = document.getElementById("detail3");
     detail3.classList.toggle("hidden");
-}
+});
 
-work4.addEventListener("click", showDetail4);
-function showDetail4() {
+work4.addEventListener("click", () => {
     const detail4 = document.getElementById("detail4");
     detail4.classList.toggle("hidden");
-}
+});
 
-work5.addEventListener("click", showDetail5);
-function showDetail5() {
+work5.addEventListener("click", () => {
     const detail5 = document.getElementById("detail5");
     detail5.classList.toggle("hidden");
-}
+});
