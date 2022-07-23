@@ -2,15 +2,17 @@
 
 const work1 = document.getElementById("work1");
 const work2 = document.getElementById("work2");
-const work3 = document.getElementById("work3");
+// const work3 = document.getElementById("work3");
 const work4 = document.getElementById("work4");
 const work5 = document.getElementById("work5");
+const work6 = document.getElementById("work6");
 
 const img1 = document.getElementById("img1")
 const img2 = document.getElementById("img2")
-const img3 = document.getElementById("img3")
+// const img3 = document.getElementById("img3")
 const img4 = document.getElementById("img4")
 const img5 = document.getElementById("img5")
+const img6 = document.getElementById("img6")
 
 work1.addEventListener("click", () => {
     const detail1 = document.getElementById("detail1");
@@ -22,10 +24,10 @@ work2.addEventListener("click", () => {
     detail2.classList.toggle("hidden");
 });
 
-work3.addEventListener("click", () => {
-    const detail3 = document.getElementById("detail3");
-    detail3.classList.toggle("hidden");
-});
+// work3.addEventListener("click", () => {
+//     const detail3 = document.getElementById("detail3");
+//     detail3.classList.toggle("hidden");
+// });
 
 work4.addEventListener("click", () => {
     const detail4 = document.getElementById("detail4");
@@ -35,6 +37,11 @@ work4.addEventListener("click", () => {
 work5.addEventListener("click", () => {
     const detail5 = document.getElementById("detail5");
     detail5.classList.toggle("hidden");
+});
+
+work6.addEventListener("click", () => {
+    const detail6 = document.getElementById("detail6");
+    detail6.classList.toggle("hidden");
 });
 
 img1.addEventListener("click", () => {
@@ -47,10 +54,10 @@ img2.addEventListener("click", () => {
     detail2.classList.toggle("hidden");
 });
 
-img3.addEventListener("click", () => {
-    const detail3 = document.getElementById("detail3");
-    detail3.classList.toggle("hidden");
-});
+// img3.addEventListener("click", () => {
+//     const detail3 = document.getElementById("detail3");
+//     detail3.classList.toggle("hidden");
+// });
 
 img4.addEventListener("click", () => {
     const detail4 = document.getElementById("detail4");
@@ -60,4 +67,9 @@ img4.addEventListener("click", () => {
 img5.addEventListener("click", () => {
     const detail5 = document.getElementById("detail5");
     detail5.classList.toggle("hidden");
+});
+
+img6.addEventListener("click", () => {
+    const detail6 = document.getElementById("detail6");
+    detail6.classList.toggle("hidden");
 });

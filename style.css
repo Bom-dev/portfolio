@@ -125,11 +125,11 @@ p > a {
     break-after: column;
 }
 
-#work1, #work2, #work3, #work4, #work5 {
+#work1, #work2, #work3, #work4, #work5, #work6 {
     cursor: pointer;
 }
 
-#img1, #img2, #img3, #img4, #img5 {
+#img1, #img2, #img3, #img4, #img5, #img6 {
     cursor: pointer;
 }
 
@@ -143,11 +143,11 @@ hr {
     display: none;
 }
 
-#container1, #container2, #container3, #container4, #container5 {
+#container1, #container2, #container3, #container4, #container5, #container6 {
     display: inline-grid;
     justify-items: center;
 }
 
-#detail1, #detail2, #detail3, #detail4, #detail5 {
+#detail1, #detail2, #detail3, #detail4, #detail5, #detail6 {
     width: 80%;
 }
