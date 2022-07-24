@@ -9,68 +9,35 @@ E1E5F2
 FFFFFF
 */
 
-
 body {
     text-align: center;
     font-family: 'Lekton', sans-serif;
     line-height: 140%;
-    margin: 20px;
+    margin: 10vw;
     background-color:#f9f9f9;
 }
 
-a {
-    text-decoration: none;
-}
-
 nav {
-    font-weight: bold;
-    text-transform: uppercase;
-    margin: 10px;
-    position: absolute;
-    top: 20px;
-    right: 20px;
     font-family: 'Zen Kaku Gothic Antique', sans-serif;
 }
 
-nav > a {
-    color: #022B3A;
-    margin: 15px;
-}
 
-nav > a:active {
-    color: #1F7A8C;
-    transform: scale(0.98);
-}
-
-.active {
-    color: #1F7A8C;
-}
-
-#logo {
-    height: 50px;
-    position: absolute;
-    top: 10px;
-    left: 20px;
-}
-
-h1 {
-    font-size: 4em;
-    margin-top: 100px;
+.h1 {
     color: #022B3A;
     font-family: 'Zen Kaku Gothic Antique', sans-serif;
 }
 
-h3 {
-    font-size: 2em;
+.h3 {
     color: #022B3A;
     font-family: 'Zen Kaku Gothic Antique', sans-serif;
     line-height: 100%;
 }
 
-h3:hover {
+.h3:hover {
     color: #f9f9f9;
     background: #022B3A;
 }
+
 main {
     border-top: 1px solid #022B3A;
     padding-top: 50px;
@@ -94,11 +61,7 @@ div > a {
 }
 
 div > img {
-    max-width: 500px;
-    box-shadow:
-    inset 0 -3em 3em rgba(0,0,0,0.1),
-          0 0  0 2px rgb(255,255,255),
-          0.3em 0.3em 1em rgba(0,0,0,0.3);
+    border: 1px solid #022B3A;
 }
 
 li {
@@ -131,12 +94,6 @@ p > a {
 
 #img1, #img2, #img3, #img4, #img5, #img6 {
     cursor: pointer;
-}
-
-hr {
-    border-top: .5px solid #022B3A;
-    margin-top: 50px;
-    margin-bottom: 50px;
 }
 
 .hidden {
