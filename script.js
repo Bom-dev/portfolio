@@ -1,28 +1,30 @@
 // Set a clickable works to show the details
 
 const work1 = document.getElementById("work1");
-const work2 = document.getElementById("work2");
+// const work2 = document.getElementById("work2");
 // const work3 = document.getElementById("work3");
 const work4 = document.getElementById("work4");
 const work5 = document.getElementById("work5");
 const work6 = document.getElementById("work6");
+const work7 = document.getElementById("work7");
 
 const img1 = document.getElementById("img1")
-const img2 = document.getElementById("img2")
+// const img2 = document.getElementById("img2")
 // const img3 = document.getElementById("img3")
 const img4 = document.getElementById("img4")
 const img5 = document.getElementById("img5")
 const img6 = document.getElementById("img6")
+const img7 = document.getElementById("img7")
 
 work1.addEventListener("click", () => {
     const detail1 = document.getElementById("detail1");
     detail1.classList.toggle("hidden");
 });
 
-work2.addEventListener("click", () => {
-    const detail2 = document.getElementById("detail2");
-    detail2.classList.toggle("hidden");
-});
+// work2.addEventListener("click", () => {
+//     const detail2 = document.getElementById("detail2");
+//     detail2.classList.toggle("hidden");
+// });
 
 // work3.addEventListener("click", () => {
 //     const detail3 = document.getElementById("detail3");
@@ -44,15 +46,20 @@ work6.addEventListener("click", () => {
     detail6.classList.toggle("hidden");
 });
 
+work7.addEventListener("click", () => {
+    const detail7 = document.getElementById("detail7");
+    detail7.classList.toggle("hidden");
+});
+
 img1.addEventListener("click", () => {
     const detail1 = document.getElementById("detail1");
     detail1.classList.toggle("hidden");
 });
 
-img2.addEventListener("click", () => {
-    const detail2 = document.getElementById("detail2");
-    detail2.classList.toggle("hidden");
-});
+// img2.addEventListener("click", () => {
+//     const detail2 = document.getElementById("detail2");
+//     detail2.classList.toggle("hidden");
+// });
 
 // img3.addEventListener("click", () => {
 //     const detail3 = document.getElementById("detail3");
@@ -72,4 +79,9 @@ img5.addEventListener("click", () => {
 img6.addEventListener("click", () => {
     const detail6 = document.getElementById("detail6");
     detail6.classList.toggle("hidden");
+});
+
+img7.addEventListener("click", () => {
+    const detail7 = document.getElementById("detail7");
+    detail7.classList.toggle("hidden");
 });

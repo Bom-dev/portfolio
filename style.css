@@ -88,11 +88,11 @@ p > a {
     break-after: column;
 }
 
-#work1, #work2, #work3, #work4, #work5, #work6 {
+#work1, #work2, #work3, #work4, #work5, #work6, #work7 {
     cursor: pointer;
 }
 
-#img1, #img2, #img3, #img4, #img5, #img6 {
+#img1, #img2, #img3, #img4, #img5, #img6, #img7 {
     cursor: pointer;
 }
 
@@ -100,11 +100,11 @@ p > a {
     display: none;
 }
 
-#container1, #container2, #container3, #container4, #container5, #container6 {
+#container1, #container2, #container3, #container4, #container5, #container6, #container7 {
     display: inline-grid;
     justify-items: center;
 }
 
-#detail1, #detail2, #detail3, #detail4, #detail5, #detail6 {
+#detail1, #detail2, #detail3, #detail4, #detail5, #detail6, #detail7 {
     width: 80%;
 }
